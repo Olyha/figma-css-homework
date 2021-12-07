@@ -1,50 +1,56 @@
 body {
-  background-color: #F2F2F2;
-  
-  height: 3843px;
-  width: 1400px;
   max-width: 1400px;
+  background-color: #F2F2F2;
+  margin: auto;
 }
 header  {
-    background-color: #F2F2F2;
-    display:flex;
-    justify-content: space-between;
-    width: 1400px;
-    max-width: 1400px;
-    height: 78px;
-    padding: 15px;
-    margin: 0 auto;
+  display:flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+  max-width: 1400px;
+  height: 78px;
+  padding: 15px 0px;
+  background-color: #F2F2F2;
 }
 .header__logo {
-  width: 185.34px;
-  height: 31.97px;
-  padding: 22px 53px;
-  padding: 50px 120px;
+  width: 185px;
+  height: 32px;
+  padding: 52px 140px;
 }
 .header_link {
-  padding: 54px 29px 26px 30px;
-  margin: auto;
+  padding: 54px 1px 26px 30px;
+  margin-top: 5px;
+  margin-left: 50px;
 }
 .nav__link {
   background-color: #F2F2F2;
   color: #2F281E;
-  padding: 11px 16px;
-  margin: auto;
-  text-align: center;
-  text-transform: capitalize;
+  padding: 11px 12px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 28px;
   text-decoration-line: none;
 }
-button {
+.button {
   font-size: 16px;
-  padding: 15px 14px;
   border-radius: 4px;
   align-items: center;
   justify-content: center;
   border: transparent;
   margin-bottom: 25px;
-  text-transform: capitalize;
-  font-weight: 700;
-  }    
+  margin-top: 20px;
+  margin-right: 90px;
+  margin-left: -1px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+  padding: 45px 15px 17px 2px;
+  text-decoration-line: none;
+}    
 .button_in {
     width: 102px;
     height: 46px;
@@ -53,8 +59,7 @@ button {
     border: 1px solid;
     border-radius: 4px;
     padding: 11px 22px;
-    font-size: 16px;
-    text-decoration-line: none;
+    margin-right: 3px;
 }
 .button_up {
     width: 110px;
@@ -64,43 +69,47 @@ button {
     border: 1px solid;
     border-radius: 4px;
     padding: 11px 22px;
-    text-decoration-line: none;
 }
    
 main  {
     background-color: #F2F2F2;
     color: #2F281E;
-    width: 100%;
-    max-width: 1400px;    
-    justify-content: space-between;
+    max-width: 1400px;
+    margin: auto;    
+    
 }
 .first_section {
   display: flex;
-  width: 1125.35px;
-  height: 494.83px;
-  padding: 32px 132px 99px 145px;
+  max-width: 1125px;
+  height: 495px;
+  padding: 59px 1px 99px 140px;
 }
 .block_info {
-  width: 518px;
+  max-width: 460px;
   height: 331px;
 }
 .first_title {
-  width: 418px;
+  max-width: 500px;
+  flex-wrap: wrap;
   height: 108px;
   justify-content:space-between;
-  padding: 103px 0px 30px;
+  padding: 43px 0px 30px;
   margin: 2px;
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 31px;
   line-height: 54px;
   }  
  .first_txt {
-   font-size: 23px;
+   font-size: 50px;
    text-transform:lowercase;
-   width: 458px;
+   width: 448px;
    height: 95px;
    padding: 30px 1px;
+   font-weight: 600;
+   font-style: normal;
+   line-height: 28px;
 } 
   .btn {
     width: 175px;
@@ -125,61 +134,70 @@ main  {
 .img_first  {  
   width: 604.35px;
   height: 494.83px;
-  padding: 32px 132px 99px 35px;
+  padding: 32px 12px 99px 35px;
   margin: auto;
 }
-
-
-.section_icon  {
-  width: 2211px;
+.second_section_icon  {
+  max-width: 1140px;
+  margin: auto;
   height: 543px;
-  text-align:center;
-  display:inline;
-  padding: 734px 0px;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
 }
 .text_title {
-  width: 539px;
+  max-width: 539px;
   height: 108px;
   font: status-bar;
   font-size: 36px;
-  justify-content:stretch;
-  padding:0px 400px;
   margin: auto;
   text-align: center;
 }  
 .icon__text {
   display: flex;
-  width: 1095px;
-  height: 204px;
-  padding: 54px 160px;
+  justify-content: space-around;
+  margin-right: -100px;
 }
 .icon {
   width: 51px;
   height: 50px;
 }
 .fct__icon {
-  width: 240px;
+  max-width: 240px;
   height: 178px;
-  padding: 0px 10px;
-  margin: auto;
+  padding: 70px 7px 75px 0px;
   text-align: left;
+  flex-wrap: wrap;
+  flex-direction: row;
   }
 .btn_upnow {
-  padding: 10px 500px 20px 410px;
+  display: flex;
+  justify-content: center;
+  padding: 15px 30px 14px 30px;
+  width: 100%; 
+}
+.button_icon_section {
+  height: 15px;
+  color: #F2F2F2;
+  font-size: 16px;
+  padding: 11px 32px;
+  border-radius: 4px;
+  font-weight: 700;
+  text-decoration-line: none;
+  background-color: #FF9900;
 }
 
 .second_section {
   display: flex;
-  width: 1110px;
+  max-width: 1110px;
   height: 574px;
-  padding: 120px 145px 50px;
+  margin: auto;
+  margin-top: 150px;
+  margin-left: 120px;
 }
 .second_txt {
-  font-size: 23px;
-  width: 486px;
   height: 531px;
-  font-size: 16px;
-  max-width: 400px;
+  max-width: 490px;
 }
 .title {
   font-size: 36px;
@@ -196,70 +214,83 @@ h5 {
 .img_DP {
   width: 520px;
   height: 574px;
-  padding: 1px 104px;
+  padding: 1px 10px;
+  margin-left: 105px;
 }
 
 
 .third_section {
   display: flex;
-  width: 1121px;
+  justify-content: space-between;
+  max-width: 1120px;
+  margin: auto;
   height: 521px;
-  padding: 51px 144px;
+  padding: 5px 14px;
+  margin-top: 110px;
+  margin-left: 120px
+
 }
 .img_pm {
   width: 535px;
   height: 521px;
 }
 .third_txt {
-  width: 486px;
-  height: 427px;
+  height: 500px;
   max-width: 486px;
-  padding: 50px 135px 149px 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  
 }
-.icon_v {
+.icon_pm {
   width: 35px;
   height: 35px;
 }
-.txt_icon_v {
+.txt_icon_pm {
   display: flex;
   width: 430px;
   height: 52px;
   padding: 10px 0px;
 }
 .third_txt_icon {
-  width: 365px;
+  max-width: 400px;
   height: 52px;
-  padding: 0px 48px 30px;
+  padding: 0px 14px 30px 30px;
   font-weight: 500;
   font-size: 16px;
   font-style: normal;
   line-height: 26px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 p {
+  max-width: 490px;
   font-weight: 500;
   font-size: 16px;
   font-style: normal;
   line-height: 26px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 .under_title {
+  display: flex;
+  flex-wrap: wrap;
   padding: 73px 0px 0px 0px;
   width: 486px;
-  max-width: 400px;
+  max-width: 480px;
   height: 78px;
   font-weight: 500;
   font-size: 16px;
   font-style: normal;
   line-height: 26px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 .title_m {
   font-weight: 700;
   font-size: 36px;
   font-style: normal;
   line-height: 54px;
-  width: 342px;
+  width: 480px;
   height: 54px;
-  max-width: 342px;
-  padding: 3px 144px 22px 0px;
+  max-width: 480px;
   display: flex;
 }
 .top_title {
@@ -270,7 +301,6 @@ p {
   width: 212px;
   height: 24px;
   max-width: 212px;
-  padding: 0px 274px 3px 0px;
 }
 .section_titles {
   width: 30px;
@@ -282,67 +312,92 @@ p {
 
 .fours_section {
   display: flex;
-  width: 1110px;
+  justify-content: space-between;
+  max-width: 1110px;
   height: 609px;
-  padding: 104px 143px 146px 147px;
   margin: auto;
+  margin-top: 130px;
+  margin-left: 120px;
 }
 .fours_txt {
-  width: 486px;
   height: 441px;
-  max-width: 400px;
-  padding: 10px 82px 10px 0px;
+  max-width: 490px;
 }
 .img_boym {
   width: 542px;
   height: 609px;
-  padding: 0px 82px;
+  margin-right: -20px;
+}
+
+.line {
+  max-width: 1110px;
+  height: 1px;
+  margin: auto;
+  margin-top: 70px;
 }
 
 footer {
-  width: 1109px;
+  max-width: 1110px;
   height: 308px;
-  padding: 146px 131px 83px 160px;
-  justify-content: space-between;
   margin: auto;
+  margin-top: 105px;
 }
 .footer_info {
   display: flex;
-  width: 1110px;
-  height: 308px;
-  max-width: 1000px;
+  flex-direction: row;
+  justify-content: space-between;
+  max-width: 1110px;
 }
 .logo_prod {
   width: 185px;
   height: 32px;
-  padding: 1px 126px 256px 1px;
 }
 .footer_link {
   width: 118px;
   height: 180px;
-  padding: 35px 25px 65px 45px;
-  
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-top: 50px;
 }
 .footer_links {
   width: 131px;
   height: 180px;
-  padding: 35px 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-top: 50px;
 }
 .txt_area {
   max-width: 320px;
   max-height: 48px;
-  padding: 99px 31px 26px;
 }
 .last_button {
-  padding: 2px 31px;
+  height: 259px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: end;
+  
 }
+.btn_last_signup {
+  width: 131px;
+  height: 39px;
+  background-color: #FF9900;
+  color: #F2F2F2;
+  border: 1px solid;
+  border-radius: 4px;
+  padding: 11px 22px;
+  margin-top: 21px;
+  
+}
+
 a {
   text-decoration-line: none;
   color: black;
 }
 a:hover {
-  background-color: brown;
+  background-color: rgb(231, 84, 92);
 }
-
-
-
